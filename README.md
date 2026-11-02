@@ -49,25 +49,9 @@
 ## 装它，只要 20 秒
 
 ```bash
-git clone https://github.com/liangdabiao/opc-ops-skill.git
-cp -r opc-ops-skill/.workbuddy/skills/opc-ops ~/.workbuddy/skills/
+告诉你的AI 安装这个skill: https://github.com/liangdabiao/opc-ops-skill.git 
 ```
-
-Windows PowerShell：
-
-```powershell
-Copy-Item -Recurse .\opc-ops-skill\.workbuddy\skills\opc-ops "$env:USERPROFILE\.workbuddy\skills\"
-```
-
-> 项目级安装（只在这个项目里可用）：把 `opc-ops` 整个文件夹放进 `<项目根>/.workbuddy/skills/` 即可。
->
-> 装完**重启一次会话**，技能才会被加载。
-
-**为什么技能藏在 `.workbuddy/skills/` 里？**
-因为这就是项目级技能的约定目录——把它放进项目里，就跟着项目走；放进 `~/.workbuddy/skills/`，就跟着你走。放哪都行，看你想要哪种。
-
-**为什么仓库里只有一个技能？**
-因为一个技能就该干一件事。这个仓库是 `opc-ops` 的家，以后要加新技能，另开仓库。
+ 
 
 ---
 
@@ -182,3 +166,6 @@ python scripts/risk_scan.py --file chat.txt
 ## License
 
 MIT。拿去用，拿去改，拿去赚。
+
+
+特别致谢： https://linux.do 佬友支持
