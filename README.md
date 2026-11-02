@@ -49,14 +49,14 @@
 ## 装它，只要 20 秒
 
 ```bash
-git clone https://github.com/liangdabiao/opc-skill.git
-cp -r opc-skill/.workbuddy/skills/opc-ops ~/.workbuddy/skills/
+git clone https://github.com/liangdabiao/opc-ops-skill.git
+cp -r opc-ops-skill/.workbuddy/skills/opc-ops ~/.workbuddy/skills/
 ```
 
 Windows PowerShell：
 
 ```powershell
-Copy-Item -Recurse .\opc-skill\.workbuddy\skills\opc-ops "$env:USERPROFILE\.workbuddy\skills\"
+Copy-Item -Recurse .\opc-ops-skill\.workbuddy\skills\opc-ops "$env:USERPROFILE\.workbuddy\skills\"
 ```
 
 > 项目级安装（只在这个项目里可用）：把 `opc-ops` 整个文件夹放进 `<项目根>/.workbuddy/skills/` 即可。
