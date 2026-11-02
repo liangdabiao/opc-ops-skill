@@ -1,0 +1,21 @@
+# 打包产物（用 GitHub Releases 分发，不入库）
+dist/
+*.zip
+
+# 本地记忆与工作日志
+.workbuddy/memory/
+
+# 原始素材：含他人文章原文，不入库
+opc.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

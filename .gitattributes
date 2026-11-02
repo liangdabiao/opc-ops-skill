@@ -1,0 +1,8 @@
+# 统一使用 LF，避免 Windows / macOS 混用导致 markdown 与脚本出现 diff 噪音
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.png binary
+*.jpg binary
+*.zip binary
